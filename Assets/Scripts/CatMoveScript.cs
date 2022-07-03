@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class CatMoveScript : MonoBehaviour
 {
@@ -8,6 +9,8 @@ public class CatMoveScript : MonoBehaviour
     public float speedmegnification;
     public Rigidbody rb;
     public Vector3 movingvelocity;
+    public GameObject itemrist;
+    public bool check = false;
     [SerializeField] Animator anim;
     // Start is called before the first frame update
     void Start()
@@ -19,8 +22,8 @@ public class CatMoveScript : MonoBehaviour
     private Vector3 latestpos;
     void Update()
     {
-        float x = Input.GetAxisRaw("horizontal");
-        float z = Input.GetAxisRaw("vertical");
+        float x = Input.GetAxisRaw("Horizontal");
+        float z = Input.GetAxisRaw("Vertical");
         movingdirection = new Vector3(x, 0, z);
         movingdirection.Normalize();
         movingvelocity = movingdirection * speedmegnification;
@@ -33,6 +36,19 @@ public class CatMoveScript : MonoBehaviour
             anim.SetBool("Walk", false);
         }
         */
+        rb.velocity = new Vector3(movingvelocity.x, rb.velocity.y, movingvelocity.z);
+        /*if (Input.GetKeyDown("b"))
+        {
+            if (check == false)
+            {
+                itemrist.SetActive(true);
+                check = true;
+            }else if (check == true)
+            {
+                itemrist.SetActive(false);
+                check = false;
+            }
+        }*/
     }
     void FixedUpdate()
     {
@@ -46,10 +62,10 @@ public class CatMoveScript : MonoBehaviour
             this.transform.rotation = rot;
         }
         if (jumpnow == true) return;
-        rb.velocity = new Vector3(movingvelocity.x, rb.velocity.y, movingvelocity.z);
+        
     }
     private bool jumpnow;
-    public float jumppower;
+    public float jumpPower;
     private void OnCollisionEnter(Collision other)
     {
         if (jumpnow == true)
@@ -65,8 +81,13 @@ public class CatMoveScript : MonoBehaviour
         if (jumpnow == true) return;
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            rb.AddForce(transform.up * jumppower, ForceMode.Impulse);
+            rb.AddForce(transform.up * jumpPower, ForceMode.Impulse);
             jumpnow = true;
         }
+    }
+    public void close()
+    {
+        itemrist.SetActive(false);
+        check = false;
     }
 }
