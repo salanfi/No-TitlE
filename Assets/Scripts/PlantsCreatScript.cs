@@ -7,6 +7,8 @@ public class PlantsCreatScript : MonoBehaviour
     [SerializeField] GameObject plant;
     [SerializeField] int itemCount = 7;
     List<GameObject> items = new List<GameObject>();
+    [SerializeField] GameObject stone;
+    [SerializeField] int stoneCount = 2;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,18 @@ public class PlantsCreatScript : MonoBehaviour
                     items.Add(obj);
                     break;
                 }
+            }
+        }
+        for(int i = 0; i < stoneCount; i++)
+        {
+            Vector3 pos = Random.insideUnitCircle * 5 + center;
+            pos.z = pos.y;
+            pos.y = 0;
+            if (!Physics.CheckBox(pos, halfExtents, Quaternion.identity, 1 << 20))
+            {
+                GameObject obj = Instantiate(stone, pos, Quaternion.identity);
+                items.Add(obj);
+                break;
             }
         }
     }

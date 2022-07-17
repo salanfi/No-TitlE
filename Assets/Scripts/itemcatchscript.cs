@@ -23,7 +23,11 @@ public class itemcatchscript : MonoBehaviour
         if (collision.gameObject.CompareTag("item"))
         {
             items[0]++;
-            count[0].text = "brunch:" + items[0].ToString();
+            count[0].text = "brunch :" + items[0].ToString();
+        }else if (collision.gameObject.CompareTag("smallstone"))
+        {
+            items[1]++;
+            count[1].text = "smallstone :" + items[1].ToString();
         }
     }
 }
