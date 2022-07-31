@@ -21,7 +21,7 @@ public class StoneCreateScript : MonoBehaviour
     {
         while (true)
         {
-            time = Random.Range(90, 300);
+            time = Random.Range(90, 600);
             yield return new WaitForSeconds(time);
             Instantiate(stone, transform.position, transform.rotation);
         }

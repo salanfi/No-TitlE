@@ -21,7 +21,7 @@ public class BrunchDropScript : MonoBehaviour
     {
         while (true)
         {
-            time = Random.Range(90, 300);
+            time = Random.Range(90, 1200);
             yield return new WaitForSeconds(time);
             Instantiate(brunch, transform.position, transform.rotation);
         }

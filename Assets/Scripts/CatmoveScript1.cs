@@ -17,6 +17,8 @@ public class CatmoveScript1 : MonoBehaviour
     {
         rb = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
     }
 
     // Update is called once per frame
@@ -53,5 +55,4 @@ public class CatmoveScript1 : MonoBehaviour
             jumpnow = false;
         }
     }
-
 }
