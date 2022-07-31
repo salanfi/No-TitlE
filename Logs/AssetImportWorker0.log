@@ -960,3 +960,51 @@ System memory in use after: 166.1 MB.
 Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1934.
 Total: 2.072915 ms (FindLiveObjects: 0.217980 ms CreateObjectMapping: 0.046930 ms MarkObjects: 1.246488 ms  DeleteObjects: 0.560310 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001629 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.815 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 166.8 MB.
+System memory in use after: 166.4 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1936.
+Total: 3.578075 ms (FindLiveObjects: 0.220104 ms CreateObjectMapping: 0.091855 ms MarkObjects: 2.248263 ms  DeleteObjects: 1.015491 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000815 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.27 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.551 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1354 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 167.1 MB.
+System memory in use after: 166.7 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 1938.
+Total: 2.092926 ms (FindLiveObjects: 0.168907 ms CreateObjectMapping: 0.045936 ms MarkObjects: 1.287065 ms  DeleteObjects: 0.589354 ms)
+
