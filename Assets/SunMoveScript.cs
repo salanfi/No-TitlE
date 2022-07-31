@@ -16,7 +16,7 @@ public class SunMoveScript : MonoBehaviour
     {
         if (obj.transform.localEulerAngles.x <= 90)
         {
-            obj.transform.Rotate(0.01f, 0, 0);
+            obj.transform.Rotate(0.002f, 0, 0);
         }else if (obj.transform.localEulerAngles.x >= 270)
         {
             obj.transform.Rotate(0.05f, 0, 0);
