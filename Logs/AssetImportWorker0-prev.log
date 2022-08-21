@@ -1,0 +1,114 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/sanshoutakumi/Desktop/unity/No TitlE
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62902
+Successfully changed project path to: /Users/sanshoutakumi/Desktop/unity/No TitlE
+/Users/sanshoutakumi/Desktop/unity/No TitlE
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 40.22 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.3f1 (8ff31bc5bf5b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/sanshoutakumi/Desktop/unity/No TitlE/Assets
+GfxDevice: creating device client; threaded=0
+2022-08-21 11:03:29.014 Unity[32140:8290112] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-08-21 11:03:29.014 Unity[32140:8290112] Metal devices available: 1
+2022-08-21 11:03:29.014 Unity[32140:8290112] 0: Intel(R) Iris(TM) Plus Graphics (low power)
+2022-08-21 11:03:29.015 Unity[32140:8290112] Using device Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.3f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.003915 seconds.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 32.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.925 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.210 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.2.3f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1378 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 134.5 MB.
+System memory in use after: 134.0 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 1829.
+Total: 2.569524 ms (FindLiveObjects: 0.160309 ms CreateObjectMapping: 0.041107 ms MarkObjects: 1.742623 ms  DeleteObjects: 0.624097 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Standard Assets/Fonts/Unipix.ttf
+  artifactKey: Guid(1f16052dfd5f6f54e94e97ecedd4c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Fonts/Unipix.ttf using Guid(1f16052dfd5f6f54e94e97ecedd4c86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6750674467b19e5cfd8e478b6fa8a0fa') in 2.439802 seconds
+  Import took 2.443934 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000426 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf
+  artifactKey: Guid(b51a3e520f9164da198dc59c8acfccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansRegular.ttf using Guid(b51a3e520f9164da198dc59c8acfccd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9529fb775c752652e19ba1de907c5c') in 0.015148 seconds
+  Import took 0.019230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf
+  artifactKey: Guid(01cd679a1b9ee48bf9c546f6ce2cb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansSemibold.ttf using Guid(01cd679a1b9ee48bf9c546f6ce2cb97e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b43171365ec67c78d2770ad00c2c7f5f') in 0.016035 seconds
+  Import took 0.020297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf
+  artifactKey: Guid(87c316b602156405d92e616621658222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansBold.ttf using Guid(87c316b602156405d92e616621658222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7edbd4fddd41697d7e7d7521fcabfad7') in 0.019948 seconds
+  Import took 0.024649 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf
+  artifactKey: Guid(04a842e316b6f44bf8da702de26a8ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Fonts/OpenSans/OpenSansLight.ttf using Guid(04a842e316b6f44bf8da702de26a8ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40418b55e3666e9b94182452d5dbe403') in 0.012685 seconds
+  Import took 0.016491 seconds .
+
